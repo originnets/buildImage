@@ -9,5 +9,4 @@ FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.3
 FROM gcr.io/google.com/cloudsdktool/cloud-sdk@sha256:27b2c22bf259d9bc1a291e99c63791ba0c27a04d2db0a43241ba0f1f20f4067f
 FROM gcr.io/distroless/base@sha256:3cebc059e7e52a4f5a389aa6788ac2b582227d7953933194764ea434f4d70d64
 FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.34.1@sha256:70cab42dec664eda056076abaddcd66183678409ab6911821960f5e9889d6b21
-FROM mcr.microsoft.com/powershell:nanoserver@sha256:b6d5ff841b78bdf2dfed7550000fd4f3437385b8fa686ec0f010be24777654d6
-MAINTAINER youik
+MAINTAINER youik <youik@goole.com>
